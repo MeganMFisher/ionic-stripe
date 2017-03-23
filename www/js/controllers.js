@@ -16,7 +16,7 @@ angular.module('starter.controllers', [])
       console.log(payment)
       // console.log($scope.payment)
       // payment.card = void 0;
-      console.log(payment.cart)
+      console.log(payment.card)
       payment.token = response.id;
 
       return $http({
